@@ -12,19 +12,21 @@ https://drive.google.com/file/d/1YLrWikl2v7HxQ_ZjT-hd2AT_PXech0gR/view
 
 ## Screenshot
 
-![Screenshot1](/img/logoQ.png)
+![Screenshot1](/lib/img/logoQ.png)
 
-## Set up
+## Installation Process
+1. Clone the repository:git@github.com:DecodePlaymaker/creator.git
+2. Install the following: 
+- Node.JS [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
+- Jest [Version 29.4.3](https://www.npmjs.com/package/jest)
+- Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
+3. Open the cloned repository in VS
+4. Open the integrated terminal for the document and complete the respective installation guides provided above in section (2) to ensure the cloned documentation will operate.
 
-1. Clone the repo:
-   git clone 
-
-2. Open in VS Code. If you do not have VS code you must install it.
-
-3. Using the terminal, install node.js v16. If you have homebrew, the command should look like the following (brew install node@16), however this may vary and the documentation should be consulted.
-
-4. Once node.js v16 is installed, in the terminal, utilize the command npm init -y to initialize and create a package.json where project files will be stored.
-
-5. Next, use the terminal to run the command npm i to install the dependencies associated with this application (developers may need to install inquirer and jest directly from the command line, to do so the command for inquirer will be npm i inquirer@8.2.4 to install v8.2.4 of the inquirer, and npm i jest to install the latest version of jest).
-
-6. To run the application, within the terminal, type the command node index.js.
+## Usage Instructions
+1. Open the cloned repository in Visual Studio Code.
+2. Open integrated terminal on index.js
+3. Type “node index.js” in the command line
+4. Through sequential order within the command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed.
+5. A SVG file named "logo.svg" will be created.
+6. You may rename the "logo.svg" file to the file name.
